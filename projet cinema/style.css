@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(201, 201, 201);
+}
+.nom{
+    display: flex;
+}
+form{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+td{
+    background-color: rgb(255, 255, 255,0.5);
+    padding: 10px;
+    border: none;
+}
+td:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    transition: 0.2s;
+}
+
+tr{
+    background-color: rgba(171, 142, 142, 0.5);
+    border: 3px solid black;
+}
+th{
+    background-color:rgba(173, 44, 44, 0.5);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.table{
+    border-radius: 40px;
+}
+.voir{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.voir:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: white;
+}
+.rech{
+    
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin: 3% 20px 3% 10px;
+    border: none;
+}
+
+.aj{
+    color: black;
+background-color: rgb(98, 91, 91,0);
+}
+.aj:hover{
+    color: rgb(255, 255, 255);
+background-color: rgb(98, 91, 91,0);
+}
+#pagination{
+    margin: 2%;
+}
+.re{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(0, 0, 0,0);
+}
+.lindex{
+    padding: 2%;
+    text-align: center;
+}
+.lindex h1{
+    margin: 10%;
+    font-size:150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 50px 50px 20px black;
+}
+.lindex h1{
+    animation-duration: 1.3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.lindex h1:hover{
+    margin: 10%;
+    font-size:150px;
+    transition: 0.9s;
+    color: rgb(0, 0, 0);
+    text-shadow: 50px 50px 20px rgb(255, 255, 255);
+}
+.lindex a {
+    border-radius: 10px;
+}
+.lindex a:hover{
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px black;
+}
+.aa:hover{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+    box-shadow: 0px 10px 10px rgb(134, 78, 78);
+}
